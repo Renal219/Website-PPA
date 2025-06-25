@@ -477,7 +477,7 @@ button {
     top: 120px;
     left: 30px;
     color: #ffffff;
-    background-color: #f8c30b;
+    background-color: #5c9636;
 }
 
 #my_slider .carousel-control-next,
@@ -496,7 +496,7 @@ button {
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #f8c30b;
+    background-color: #5c9636;
 }
 
 
@@ -800,7 +800,8 @@ button {
 }
 
 i.fa.fa-link {
-    background: #0fbdd7;
+    opacity: 50%;
+    background: #000000;
     padding: 20px 20px 18px 20px;
     border-radius: 100%;
 }
@@ -914,6 +915,12 @@ i.fa.fa-link {
 .projects_section ul .nav-link.active {
     background-color: #5c9636;
     color: #fff;
+}
+
+.nav-item a:hover {
+    background-color: #5c9636;
+    color: #ffffff;
+    
 }
 
 
